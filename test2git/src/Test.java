@@ -6,7 +6,18 @@ public class Test {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("log now................");
+		cnt = 1;
+		
+		System.out.println("log now................"+ getCnt());
 	}
 
+	private static int cnt;
+
+	public static int getCnt() {
+		return cnt;
+	}
+
+	public void setCnt(int cnt) {
+		this.cnt = cnt;
+	}
 }
